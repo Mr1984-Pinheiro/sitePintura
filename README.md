@@ -1,0 +1,2 @@
+# sitePintura
+deploy na hostinger
