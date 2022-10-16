@@ -1,0 +1,157 @@
+@import "../styles/variables.scss";
+//@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+body {
+    font-family: 'Actor';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {   
+    background: linear-gradient(180deg, #2D3266 11.41%, #555B8F 34.74%, #6A70A6 57.06%, #7F83A4 77.01%, #A7ABCD 97.63%);
+    mix-blend-mode: normal;    
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    padding: 15px 50px 15px 50px;
+    @media (max-width: 390px) {
+        padding: 15px 8px 15px 0px;
+    }
+
+    @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+        text-align: center;
+        
+    }
+
+    @include breakpoint(md) {
+        flex-direction: row;
+        padding: 15px 25px 15px 50px;
+    }
+
+    &_textBox {
+        flex: 1;
+        margin-top: 3.5%;
+        margin-left: 25px;
+
+        div {
+            padding: 0 20% 0 7%;
+            @media (max-width: 700px){
+                padding: 0px;
+                padding-right: 5px;
+        } 
+        
+        @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            padding: 0 5% 0 7%;
+            
+        }
+
+        }       
+        
+
+        span {
+            border-bottom: 3px solid #FFF;
+            padding-bottom: 6px;
+            font-weight: 600;
+            @media (max-width: 390px) {
+                font-size: 20px;
+            }
+            
+        }
+        
+        p {
+            margin-bottom: 80px;
+            font-weight: 500;
+            font-size: 25px;
+            font-style: normal;
+            line-height: 30px;
+            font-family: 'Actor';               
+            color: #FFFFFF;
+            @media (max-width: 390px) {
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 40px;
+text-align: center;
+
+            }
+
+            @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+                font-size: 18px;
+            }
+
+            @include breakpoint(md) {
+                font-size: 20px;
+            }
+
+            
+        }
+    }
+
+    &_imageContainer {
+        
+        
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        
+        //margin-left: 40px; 
+        @include breakpoint(md) {
+            width: 500px;
+            height: 500px; 
+            margin-top: 50px;
+            z-index: 10;
+            
+        }    
+        
+        img {
+            margin-top: 70px;
+            width: 300px;
+            height: 300px; 
+            @media (max-width: 390px) {
+                width: 158px;
+                height: 158px; 
+                margin-top: 5px;
+            }
+            @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+                width: 158px;
+                height: 158px; 
+                margin-top: 5px;
+            }
+
+            
+        }
+
+                
+    }
+    .retangulo {
+        width: 280px;
+        height: 300px; 
+        margin-left: -250px;
+        margin-bottom: 60px;
+        z-index: -1;  
+        
+        @media (max-width: 390px) {
+            z-index: -1; 
+            width: 10rem;
+            height: 10rem; 
+            margin-left: -140px;
+            margin-bottom: 40px;
+        } 
+        
+        @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            z-index: -1; 
+            width: 10rem;
+            height: 10rem; 
+            margin-left: -140px;
+            margin-bottom: 40px;
+            
+        }
+        
+
+    }
+
+
+}

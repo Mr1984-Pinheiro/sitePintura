@@ -1,0 +1,146 @@
+@import "../styles/variables.scss";
+//@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+body {
+    font-family: 'Actor';
+    font-size: 22px;
+}
+.home {   
+    background: url("../components/images/fundo-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    padding: 15px 50px 15px 50px;
+    @media (max-width: 390px) {
+       padding: 15px 30px 15px 15px;       
+       padding-right: 15px;
+       background: url("../components/images/fundoOpacity.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right center;
+     }
+     @media screen and (min-device-width: 391px) and (max-device-width: 642px) { 
+        padding: 15px 30px 15px 15px;       
+       padding-right: 15px;
+       background: url("../components/images/fundoOpacity.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right center;
+    }
+
+    @include breakpoint(md) {
+        flex-direction: row;
+        padding: 15px 25px 15px 50px;
+    }
+
+    &_textBox {
+        width: 450px;
+        margin-top: 5.0%;
+        margin-left: 70px;
+        @media (max-width: 390px) {
+            width: 210px;
+            margin-left: 20px;
+            margin-top: 15.0%;
+             
+         }
+
+         @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            width: 70%;
+            margin-left: 5%;
+            margin-top: 30px;
+        }
+        
+        
+        p {
+            margin-bottom: 30px;
+            font-weight: 600;            
+            font-style: normal;
+            line-height: 37px;
+            font-family: 'Actor', sans-serif;               
+            color: #0B1573;
+            @media (max-width: 390px) {
+                margin-bottom: 14px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 19px;             
+              }
+
+              @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+                margin-bottom: 14px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px; 
+            }
+
+            @include breakpoint(md) {
+                font-size: 20px;
+                
+            }    
+           
+        }
+
+        a{
+             text-decoration: none;
+        }
+        button {
+            
+            display: none;
+            @media (max-width: 390px) {
+                display: block;
+                cursor: pointer;
+            outline: none;
+            width: 70px;
+            height: 25px;           
+            border-radius: 18px;                                          
+            font-size: 10px;
+            font-weight: 600;
+            font-family: inherit;
+            background: #FCFF69;
+            color: #0B1573;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 1px solid #0B1573;
+            transition: 0.3s ease all;
+            }
+
+            @media screen and (min-device-width: 391px) and (max-device-width: 642px) { 
+                display: block;
+                cursor: pointer;
+            outline: none;
+            width: 70px;
+            height: 25px;           
+            border-radius: 18px;                                          
+            font-size: 10px;
+            font-weight: 600;
+            font-family: inherit;
+            background: #FCFF69;
+            color: #0B1573;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 1px solid #0B1573;
+            transition: 0.3s ease all;
+            }
+            @include breakpoint(md) {
+                margin-left: 2rem;
+            }
+
+            &:hover {
+                opacity: 0.9;
+                border: 2.53986px solid #fff;
+            }
+
+            &:active {
+                filter: brightness(1.2);
+                border: 2.53986px solid #FF0000;
+            }
+        }
+    }
+
+    
+
+
+}

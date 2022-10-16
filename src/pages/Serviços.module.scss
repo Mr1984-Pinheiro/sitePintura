@@ -1,0 +1,188 @@
+@import "../styles/variables.scss";
+//@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+body {
+    font-family: 'Actor'; 
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    background-color:  #21264D;
+    padding-bottom: 5%;
+    @include breakpoint(md) {
+        
+        flex-direction: row;
+    }
+    @media (max-width: 390px) {
+        flex-direction: row;
+    }
+
+    @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+        flex-direction: row;
+    }
+
+    &_left {
+        
+        width: 30%;
+        color: #FFFFFF;
+        margin: 60px 0px 30px 96px;
+        @media (max-width: 390px){
+            margin-left: 5px;
+            margin-right: 3px;
+            width: 160px;
+           
+    }    
+    @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+        margin-left: 7%;
+        margin-right: 3px;
+        width: 300px;
+    }                 
+        
+        h3 {
+            width: 150px;
+            margin-top: 15px;
+            margin-left: 38px;
+            margin-bottom: 70px; 
+            font-weight: 200;
+            font-size: 32px;
+            font-family: inherit;         
+            border-bottom: 2px solid #FFF;
+            padding-bottom: 10px;
+            
+            @media (max-width: 390px){
+                    font-size: 18px;
+                    width: 80px;
+                    margin-bottom: 50px;
+            }  
+            @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+                font-size: 21px;
+                    width: 95px;
+                    margin-bottom: 50px;
+            }
+                          
+        }
+
+        ul {
+            
+            font-size: 24px;
+            margin-bottom: 70px;
+            line-height: 35px;
+            @media (max-width: 390px){
+                font-size: 14px;
+                margin-bottom: 50px;
+                line-height: 25px;
+        }      
+        @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            font-size: 16px;
+                margin-bottom: 50px;
+                line-height: 25px;
+        }               
+            
+        }
+
+        
+
+        button {
+            cursor: pointer;
+            outline: none;
+            padding: 0.25rem .75rem;
+           
+            border-radius: 15.1655px; 
+            padding: 0.20rem 1.5rem;                               
+            font-size: 1.10rem;
+            font-weight: 400;
+            font-family: inherit;
+            background: #FCFF69;
+            color: #000000;
+            border: 2.53986px solid #FFFFFF;
+            transition: 0.3s ease all;
+            @media (max-width: 390px){
+                margin-left: 30px;
+                font-size: 9px;
+                font-weight: bold;
+                padding: 10px 7px;
+                color: #21264D;
+        }  
+        
+        @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            margin-left: 30px;
+                font-size: 9px;
+                font-weight: bold;
+                padding: 10px 7px;
+                color: #21264D;
+        }
+            @include breakpoint(md) {
+                margin-left: 2rem;
+            }
+
+            &:hover {
+                opacity: 0.9;
+                border: 2.53986px solid #fff;
+            }
+
+            &:active {
+                filter: brightness(1.2);
+                border: 2.53986px solid #FF0000;
+            }
+        }
+    }
+
+    &_right {
+        padding: 13% 0 3% 20%;
+        column-gap: 38px;
+        row-gap: 15px;
+        display: flex; 
+        
+        flex-wrap: wrap;
+        width: 60%;
+        
+        @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            margin-top: 11rem;
+            height: 17rem;
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 10rem;
+           background: url("../components/images/Group\ 35.png");
+           background-repeat: no-repeat;
+            background-size: cover;
+            background-position:  center;
+        }
+
+        @media (max-width: 390px){
+            margin-top: 190px;
+            height: 225px;
+            margin-left: 10px;
+            width: 125px;
+           background: url("../components/images/Group\ 35.png");
+           background-repeat: no-repeat;
+            background-size: cover;
+            background-position:  center;
+    }   
+     
+    @media (min-width: 1312px) {
+        width: 700px;
+    }
+
+        img {
+            width: 150px;           
+            height: 150px;
+            @media (max-width: 390px){
+                width: 60px;
+                height: 60px; 
+                display: none;               
+        } 
+        @media screen and (min-device-width: 391px) and (max-device-width: 860px) { 
+            width: 60px;
+                height: 60px; 
+                display: none;   
+        }          
+        
+
+       
+    }
+    
+
+    }
+}
