@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb06b434.chunk.css",
+    "main.js": "/static/js/main.9d1126d1.chunk.js",
+    "main.js.map": "/static/js/main.9d1126d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dbbcf088.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dbbcf088.js.map",
+    "static/js/2.8669b2b8.chunk.js": "/static/js/2.8669b2b8.chunk.js",
+    "static/js/2.8669b2b8.chunk.js.map": "/static/js/2.8669b2b8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.eb06b434.chunk.css.map": "/static/css/main.eb06b434.chunk.css.map",
+    "static/js/2.8669b2b8.chunk.js.LICENSE.txt": "/static/js/2.8669b2b8.chunk.js.LICENSE.txt",
+    "static/media/Serviços.module.scss": "/static/media/Group 35.f9417b7f.png",
+    "static/media/azuleA.125bee2e.png": "/static/media/azuleA.125bee2e.png",
+    "static/media/azuleD.6d7a35b8.png": "/static/media/azuleD.6d7a35b8.png",
+    "static/media/cinza.8bd148d5.png": "/static/media/cinza.8bd148d5.png",
+    "static/media/denes.8d9c533a.png": "/static/media/denes.8d9c533a.png",
+    "static/media/frase.14f1edb0.png": "/static/media/frase.14f1edb0.png",
+    "static/media/Home.module.scss": "/static/media/fundoOpacity.578ca08e.png",
+    "static/media/gradeA.c5ab6cbe.png": "/static/media/gradeA.c5ab6cbe.png",
+    "static/media/gradeD.7cfcfdef.png": "/static/media/gradeD.7cfcfdef.png",
+    "static/media/grafiato.106efbb2.png": "/static/media/grafiato.106efbb2.png",
+    "static/media/guardaA.58673f36.png": "/static/media/guardaA.58673f36.png",
+    "static/media/guardaD.6ac75895.png": "/static/media/guardaD.6ac75895.png",
+    "static/media/instagram.4024e556.png": "/static/media/instagram.4024e556.png",
+    "static/media/laranja.590f1880.png": "/static/media/laranja.590f1880.png",
+    "static/media/logo.d41305ac.png": "/static/media/logo.d41305ac.png",
+    "static/media/moldura.36fcafd7.png": "/static/media/moldura.36fcafd7.png",
+    "static/media/rodape.b799aa52.png": "/static/media/rodape.b799aa52.png",
+    "static/media/verde.8e611c91.png": "/static/media/verde.8e611c91.png",
+    "static/media/video.5328e4e5.mp4": "/static/media/video.5328e4e5.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbbcf088.js",
+    "static/js/2.8669b2b8.chunk.js",
+    "static/css/main.eb06b434.chunk.css",
+    "static/js/main.9d1126d1.chunk.js"
+  ]
+}
